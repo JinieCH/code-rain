@@ -1,0 +1,50 @@
+getCurrentDate()	Returns current day.
+getCurrentTime()	Returns current time.
+dateValid(String)	Check whether the user input date is correct.
+numeralExtract(String)	Return only number of input string.
+commaMask(String, int)	Divide the input string (,) into the position specified in?pos.
+commaMask(int)	Divide the input by a thousand using a comma(,).
+wonRetrans(String)	Remove the comma(,) from the input string.
+wonRetrans(String, char, char)	Remove the special characters from the input string.
+DeshRetrans(String)	Remove the desh (-) from the input string.
+dateMask(String)	Days are divided into years, months, and days.
+timeMask(String)	Divide time into minutes, minutes, and seconds.
+getCalendarDate(Calendar)	Converts the date in the Calendar type to 8 digit per day.
+getDateCalendar(String)	Converts the 8 digit per day to the date in the Calendar type
+RPAD(String, int, char)	Fill in the right side with the input characters for the desired length.
+LPAD(String, int, char)	Fill in the left side with the input characters for the desired length.
+dformat(String)	Change the input type to the #, ###, ###, and ### format.
+ndformat(String)	Change the string, #,###,###,### format to the ########## format.
+ExtractSingleQua(String)	Remove the (') from the input received.
+encode(String)	encoding the input string.
+decode(String)	decoding the input string.
+sessionChk(String, String, String, String, String)	If any of the input received by the input is null, return -1.
+make(String)	Add (') at the front and back of input line.
+makeQueryString(String)	Handle special characters (') when do insert in orcle.
+ckeckCorpNo(String)	Check the corporate number.
+NullToSpace(String, int)	If the int variable is 0 and the received value is null, repalce it with " ", and if int variable is 1 and the received value is null, replace it with 0.
+IfSpace(String, String)	If the input string is a space, convert it to a second string.
+roundx(float, int)	Round up a float ype
+getCurrentTimePc()	Gets the current time.
+GetTokenElement(String)	When handling the combo box, extract the character.
+BetweenDate(String, String)	Returns the number of dates between the two dates.
+BetweenMonthCnt(String, String)	Returns the number of months between the two dates.
+BetweenYearCnt(String, String)	Returns the number of years between the two dates.
+AddDateFunc(String, int)	Return to the dighth digit string that adds dates number to input string.
+AddMonthFunc(String, int)	Return to the dighth digit string that adds months number to input string.
+AddYearFunc(String, int)	Return to the dighth digit string that adds years number to input string.
+wonPointTrunc(String, int)	Returns the number of decimals below the decimal point in which the received string.
+ExtractDoubleQua(String)	Remove the " from the input received.
+resnoMask(String)	Divide resident code into " - "
+biznoMask(String)	Divide the number of business registration numbers by 3-2-5.
+dateTimeMask(String)	Change yyyymmdd to yyyy-mm-dd-yyyy.
+dateHyphen(String)	yyyymmdd-yyyymmdd¸¦ yyyy-mm-dd-yyyy-mm-dd·Î ¹Ù²Û´Ù.
+delSpace(String)	yyyymmdd-yyyymmdd¸¦ yyyy.mm.dd-yyyy.mm.dd·Î ¹Ù²Û´Ù.
+telNoMask(String)	Remove the blank from the phone number (12 digits), and then change to 3-3-4 form.
+telNumMask(String)	Remove the blank from the phone number (11 digits), and then change to 3-3-3 form.
+telEndMask(String)	Insert the space in the form 3-3-4 after removing it from the telephone number.
+FromDateToDate(String, int)	Returns the date as input value.
+delString(String, String)	Remove any desired string.
+getCurrent_MS_Date()	Return?the current year, month, day, and time are represented by a period of 1000 milliseconds.
+resiMask(String)	Resident numbers are represented in 6-7 format.
+cardMask(String)	The card number (14 digits) is shown in the form 4-4-4-4.

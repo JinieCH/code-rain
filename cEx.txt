@@ -1,0 +1,50 @@
+abort(void)	Shut down the program abnormally.
+abs(int x)	Calculate the absolute value of the integer.
+access(const char *filename, int amode)	Examine whether the existence of a file exists and whether it can read or write.If the requested inspection is true, return 0 if the zero is false.
+arg(complex x)	Identify the number of angles given in a complex number plane.The unit is radian.
+asctime(const struct tm *block)	Stores information about a time, date, and date stored in a tm structure. The form is DDD MMM dd hh:mm:ss YYYY
+assert(int test)	If the test passed by acceptance is 0, exit the program.
+atan2(double y, double x)	Calculate the value of the atan (arc tangent). Calculate the value more precise than atan when the value is close to zero.
+atof(const char *s)	Converts a string to a double floating point. If the translation is not possible, return zero.
+atoi(const char *s)	Converts a string to an integer. If the conversion is not possible, 0 is returned.
+atol(const char *s)	Converts a string to a long integer. If the conversion is not possible, 0 is returned.
+bsearch(const void *key, const void *base, size_t nelem, size_t width, int (*fcmp)(const void *, cont void *))	Find the key values you want to find in the array and return the address with the key value. At this point the arrangement must be aligned.
+cabs(struct complex z)	Calculate the absolute value of a complex number.
+calloc(size_t nitems, size_t size)	Dynamically allocates memory.
+ceil(double x)	Ceilling double x
+chdir(const char *path)	Change the Save Location (directory).
+chmod(const char *path, int amode)	Change file access mode.
+clearerr(FILE *stream)	Resets the fourth bit and 5th bits of the FILE structure
+complex(double real, double imag)	Creates a complex number using a given real number and imaginary number.
+conj(complex x)	Get a conjugate complex number
+creat(const char *path, int amode)	Create a new file.
+ctime(const time_t *time)	Change the time and date that the t type has to be a string.
+difftime(time_t time2, time_t time2)	Time differences between time 1 and time 2 are calculated in seconds.
+dup(int handle)	Copy file handle to create new file handle.
+ecvt(double value, int ndig, int*dec, int *sign)	Change the value of the real number into a string.
+_exit(int status)	Exit the program. This function dose not closing the open file or calling the escape function.
+fabs(double x)	Calculate the absolute value of the floating point.
+fclose(FILE *stream)	Close any open windows.
+fcloseall(void)	Close all open stream. Calculate the total number of closed stream.
+fopen(const char *filename, const char (mode)	Open the stream, create a FILE structure, store information about the stream, and then return the pointer.
+feof(FILE *stream)	Determines whether the current position of the given stream is the end of the file
+ferror(FILE *stream)	Check whether there was an error in reading or writing in a given stream.
+fflush(FILE *stream)	Reset a buffer allocated to a stream.
+fgetc(FILE *stream)	Read a character from the stream.
+fgetchar(void)	Input a character from the keyboard.
+fgets(char *s, int n, FILE *stream(	Reads a string from the stream and reads the string until it meets ' \n'.
+fileno(FILE *stream)	Examine the file handle of the stream.
+floor(double x)	flooring double x
+flushall(void)	Reset the buffer allocated to all currently open streams.
+fmod(double x, double y)	Calculate remainder by dividing real number x real number y
+fputc(int c, FILE *stream)	Writes a character to the stream.
+fputchar(int c)	Output is printed on the screen.
+free(void *block)	Free memory allocated by malloc, call, and relloc.
+freopen(const char *filename, const char *mode, FILE *stream)	Replace open stream with file name.
+fseek(FILE *stream, long int offset, int whence)	Set a new file pointer (FP) in the stream.
+fstat(int handle, struct stat *statbuf)	Investigate information about open files and store them in a stat structure.
+ftell(FILE *stream)	Indicates that the current file pointer (FP) in the stream is marked with the starting point of the byte unit.
+ftime(struct timeb *buf)	Saves the current time and saves it to the timeb structure.
+gcvt(double value, int ndec, char *buf)	Converts the value of a real number to a string.
+heapcheck(void)	Check the pointer, size, and memory properties of each block of memory.
+isdigit(int c)	Confirm that the character is a number.

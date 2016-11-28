@@ -1,0 +1,50 @@
+divmod(x, y)	Compute the quotient and the rest.Return to tuple
+type(object)	Check the data type.
+dir([object])	Returns the function, variables, and parameters of the object.
+execfile(filename[globals, [locals])	Run the file within the interpreter.
+eval(source[globals, [locals])	Run a string Python expressions.
+raw_input([prompt])	Read the strings from the keyboard.
+len(object)	The length of the string returns.
+sys.getrefcount(object)	The sys module, Check reference count value.
+id(object)	Identify the addresses of objects.
+range([satrt] stop [step])	Create a list from range of steps from start to end.
+enumerate(iterable)	Return value of tuple data of (index, element)
+complex(real, [imag])	Return complex number
+<complex>real	Return real number of complex number
+<complex>.imag	Return imaginary number of complex number
+<complex>.conjugate()	Returns the conjugate complex number of complex number.
+decimal,Decimal(object)	decimal module, Return the correct number without error.
+abs(number)	Returns the absolute value of the number.
+int(x, [base])	Converts the number of base type to a decimal type.
+float(x)	Converts x to a real number type.
+pow(x, y, [z])	Calculate x^y and return z.
+locals()	Return the dictionary of local variables.
+str.upper()	Change upper case to lower case.
+str.lower()	Change lower case to upper case.
+str.swapcase()	Change uppercase letters are to lowercase letters and uppercase letters are to uppercase.
+str.capitalize()	Converts the only first character to capital letters.
+str.title()	Converts the first character of a word to a upper letter.
+str.count(sub[start[end]])	Returns the number of times a sub string has been generated from start to end.
+str.find(sub[start[end]]])	Returns the object of the string at the start of a string from start to end.
+str.rfind(sub[start[end]])	Returns the object of the string at sub string from start to end. Search from the back of the string
+str.index(sub[start[end]]])	Returns the object of the string at the sub string from start to end.Create exceptions if there are no strings attached.
+str.rindex(sub[start[end]])	Returns the object of the string at the sub string from start to end.Search from the back of the sentence.Create exceptions if there are no strings attached.
+str.strip([chars])	Remove character  string's most left and right.
+str.rstrip([chars])	Remove character string's most right.
+str.replace(old, new[count])	Change the text of old characters to new ones for a count.
+str.split([[sep[maxsplit]])	Detach the strings by separating them as sep for maxsplit.
+str.join(sequence)	Combines a string into a sequence string
+str.splitlines([keepends])	Detach the string by line.
+str.rsplit([sep[maxsplit]])	Detach the string by line from string's most right
+expandtabs([tabsize])	Change the tab within the text into blank spaces.The default value is 8.
+isdigit()	Returns a string that represents the current object is number or not.
+str.isalpha()	Returns a string that represents the current object is alphabet or not.
+str.isalnum()	Returns a string that represents the current object is number or alphabet or both not.
+str.islower()	Returns a string that represents the current object is lower case or not.
+str.istitle()	Returns a string that represents the current object is title or not
+str.zfil(width)	Increase the size of the string to width and fill the empty space with zero.
+string.digits	string module, The number of decimal units shall be printed.
+string.octdigits	string module, The number of 8 units shall be printed.
+string.hexdigits	string module, The number of 16 units shall be printed.
+string.letters	string module, Print out the output letter.
+string.lowcase	string module, Print out the output lower letter.
